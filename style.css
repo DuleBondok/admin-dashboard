@@ -1,0 +1,166 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    height: 972px;
+    display: grid;
+    grid-template-columns: 16% 12% 12% 12% 12% 12% 12% 12%;
+    grid-template-rows: 16% 13% 12% 12% 12% 12% 12% 12%;
+}
+
+.dashboard
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 10;
+    background-color: rgb(57, 144, 243);
+    display: flex;
+    flex-direction: column;
+}
+
+.header
+{
+    grid-column-start: 2;
+    grid-column-end: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPage
+{
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 10;
+    background-color: rgb(231, 230, 230);
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboard1
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
+    margin-left: 70px;
+}
+
+.dashboard2
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    gap: 20px;
+    margin-left: 70px;
+}
+
+.dashboardHed
+{
+    margin-top: 30px;
+    margin-left: 59px;
+    display: flex;
+    flex-direction: row;
+}
+
+.headerFirst
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#search
+{
+    width: 650px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(221, 219, 219);
+    border: 0;
+}
+
+.headerSecond
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.firstMain
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.secondMain
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 56px;
+    margin-left: 30px;
+}
+
+.thirdMain
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+.annDiv
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    border-radius: 20px;
+    height: 320px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 30px;
+    width: 280px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.mainDiv
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    border-radius: 20px;
+    height: 220px;
+    box-shadow: -8px 0 1px 0px rgb(253, 154, 5);
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 30px;
+    width: 410px;
+}
+
+.trendingDiv
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    border-radius: 20px;
+    height: 220px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 30px;
+    width: 280px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
